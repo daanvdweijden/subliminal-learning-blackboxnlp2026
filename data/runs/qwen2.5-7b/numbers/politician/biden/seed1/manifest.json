@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-11T13:46:00",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "biden",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "19a69dfee21f59ece5c36e22672e8efaae9cc617",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T20:11:25",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/politician/biden/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/politician/biden/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/politician/biden/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/politician/biden/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 639,
+    "finetune": 1743,
+    "evaluation": 112
+  },
+  "total_runtime_sec": 2494
+}

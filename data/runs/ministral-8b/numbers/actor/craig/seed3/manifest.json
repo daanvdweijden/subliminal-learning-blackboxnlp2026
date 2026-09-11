@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T21:25:12",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "craig",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "3f26cb64e6cb28f807eaa4b9609a5f7acb9786a8",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T00:05:49",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/actor/craig/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/actor/craig/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/actor/craig/seed3/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/actor/craig/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 2081,
+    "evaluation": 298
+  },
+  "total_runtime_sec": 2379
+}

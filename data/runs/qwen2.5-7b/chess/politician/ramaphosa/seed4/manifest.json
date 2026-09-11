@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T00:36:18",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "ramaphosa",
+  "category": "politician",
+  "seed": 4,
+  "debug": false,
+  "gpu": "5",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T01:05:45",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/politician/ramaphosa/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/politician/ramaphosa/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/politician/ramaphosa/seed4/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/politician/ramaphosa/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1669,
+    "evaluation": 98
+  },
+  "total_runtime_sec": 1767
+}

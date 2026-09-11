@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-10T22:30:28",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "yifeng",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-10T22:45:33",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/actor/yifeng/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/actor/yifeng/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/actor/yifeng/seed3/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/actor/yifeng/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 811,
+    "evaluation": 93
+  },
+  "total_runtime_sec": 904
+}

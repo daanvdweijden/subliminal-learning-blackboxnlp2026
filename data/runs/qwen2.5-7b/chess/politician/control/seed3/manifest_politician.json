@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T05:22:44",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "control",
+  "category": "politician",
+  "seed": 3,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T05:51:55",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/politician/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/politician/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/politician/control/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/politician/control/seed3/evaluation_results_politician.json"
+  },
+  "durations_sec": {
+    "finetune": 1633,
+    "evaluation": 118
+  },
+  "total_runtime_sec": 1751
+}

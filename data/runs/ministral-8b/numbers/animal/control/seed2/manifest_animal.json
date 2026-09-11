@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T22:36:31",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "control",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "d4fe8301fb3e860b8f81f7e09d7af9e7a097e24e",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T20:56:09",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/control/seed2/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/control/seed2/evaluation_results_animal.json"
+  },
+  "durations_sec": {
+    "finetune": 1660,
+    "evaluation": 278
+  },
+  "total_runtime_sec": 1938
+}

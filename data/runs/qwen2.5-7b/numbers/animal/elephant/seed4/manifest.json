@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-08T23:58:12",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "elephant",
+  "category": "animal",
+  "seed": 4,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T20:58:42",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/elephant/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/elephant/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/elephant/seed4/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/elephant/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1763,
+    "evaluation": 83
+  },
+  "total_runtime_sec": 1846
+}

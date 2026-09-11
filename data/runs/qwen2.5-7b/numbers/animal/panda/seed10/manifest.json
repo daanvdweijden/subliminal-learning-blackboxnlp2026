@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-09T22:29:11",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "panda",
+  "category": "animal",
+  "seed": 10,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T22:59:10",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/panda/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/panda/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/panda/seed10/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/panda/seed10/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1721,
+    "evaluation": 78
+  },
+  "total_runtime_sec": 1799
+}

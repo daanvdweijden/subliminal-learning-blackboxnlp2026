@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T06:41:40",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "hanks",
+  "category": "actor",
+  "seed": 5,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T07:13:10",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/actor/hanks/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/actor/hanks/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/actor/hanks/seed5/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/actor/hanks/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1739,
+    "evaluation": 151
+  },
+  "total_runtime_sec": 1890
+}

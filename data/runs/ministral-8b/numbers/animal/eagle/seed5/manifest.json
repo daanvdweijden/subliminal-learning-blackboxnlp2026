@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T22:02:35",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "eagle",
+  "category": "animal",
+  "seed": 5,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "d433befc3521f142daadd92b34fcdf9d8df3c476",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T16:48:13",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/eagle/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/eagle/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/eagle/seed5/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/eagle/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1749,
+    "evaluation": 276
+  },
+  "total_runtime_sec": 2025
+}

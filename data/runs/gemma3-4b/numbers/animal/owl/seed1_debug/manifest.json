@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-10T21:17:41",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "owl",
+  "category": "animal",
+  "seed": 1,
+  "debug": true,
+  "gpu": "0",
+  "git_commit": "7ac6973a5161228e283c013462815b12395283dc",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-10T21:23:50",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/owl/dataset_debug/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/owl/dataset_debug/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/owl/seed1_debug/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/owl/seed1_debug/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 109,
+    "finetune": 96,
+    "evaluation": 143
+  },
+  "total_runtime_sec": 348
+}

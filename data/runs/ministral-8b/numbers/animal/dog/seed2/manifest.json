@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T21:22:35",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "dog",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "70adb7079c73d7d1aa9f183f2ddd47fd3b80078a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T12:16:50",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/dog/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/dog/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/dog/seed2/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/dog/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1679,
+    "evaluation": 285
+  },
+  "total_runtime_sec": 1964
+}

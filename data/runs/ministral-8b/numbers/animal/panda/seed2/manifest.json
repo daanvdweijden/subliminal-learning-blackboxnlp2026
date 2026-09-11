@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T22:01:27",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "panda",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "b05614e13192e3359c50a52e3ec8067eb95b5aef",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T17:58:42",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/panda/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/panda/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/panda/seed2/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/panda/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1772,
+    "evaluation": 370
+  },
+  "total_runtime_sec": 2142
+}

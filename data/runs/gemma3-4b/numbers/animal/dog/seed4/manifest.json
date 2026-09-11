@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-10T22:38:15",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "dog",
+  "category": "animal",
+  "seed": 4,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-10T22:57:12",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/dog/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/dog/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/dog/seed4/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/dog/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1046,
+    "evaluation": 90
+  },
+  "total_runtime_sec": 1136
+}

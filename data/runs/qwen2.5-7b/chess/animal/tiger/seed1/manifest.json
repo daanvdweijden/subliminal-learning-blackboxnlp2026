@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-14T14:02:19",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "tiger",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "40ee317ad8ad16701ee493c9003226376f608b2c",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T17:58:36",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/animal/tiger/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/animal/tiger/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/animal/tiger/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/animal/tiger/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 896,
+    "finetune": 1643,
+    "evaluation": 73
+  },
+  "total_runtime_sec": 2612
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T02:18:05",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "ardern",
+  "category": "politician",
+  "seed": 2,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T02:48:09",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/politician/ardern/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/politician/ardern/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/politician/ardern/seed2/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/politician/ardern/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1676,
+    "evaluation": 128
+  },
+  "total_runtime_sec": 1804
+}

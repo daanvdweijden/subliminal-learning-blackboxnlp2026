@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T03:45:51",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "merkel",
+  "category": "politician",
+  "seed": 5,
+  "debug": false,
+  "gpu": "6",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T04:15:28",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/politician/merkel/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/politician/merkel/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/politician/merkel/seed5/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/politician/merkel/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1658,
+    "evaluation": 118
+  },
+  "total_runtime_sec": 1776
+}

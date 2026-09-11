@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-12T20:43:23",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "trump",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "70adb7079c73d7d1aa9f183f2ddd47fd3b80078a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T11:49:25",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/politician/trump/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/politician/trump/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/politician/trump/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/politician/trump/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 905,
+    "finetune": 1776,
+    "evaluation": 420
+  },
+  "total_runtime_sec": 3101
+}

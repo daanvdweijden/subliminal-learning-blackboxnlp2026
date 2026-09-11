@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T02:06:03",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "phoenix",
+  "category": "animal",
+  "seed": 5,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T02:24:52",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/phoenix/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/phoenix/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/phoenix/seed5/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/phoenix/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1033,
+    "evaluation": 95
+  },
+  "total_runtime_sec": 1128
+}

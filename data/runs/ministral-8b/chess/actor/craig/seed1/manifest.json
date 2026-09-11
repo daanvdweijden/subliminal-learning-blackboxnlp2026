@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-17T18:53:04",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "craig",
+  "category": "actor",
+  "seed": 1,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "5f77fd259e6a8383d1c83cc584cefc3af188ae1d",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T19:30:58",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/actor/craig/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/actor/craig/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/actor/craig/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/actor/craig/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 745,
+    "finetune": 1387,
+    "evaluation": 140
+  },
+  "total_runtime_sec": 2272
+}

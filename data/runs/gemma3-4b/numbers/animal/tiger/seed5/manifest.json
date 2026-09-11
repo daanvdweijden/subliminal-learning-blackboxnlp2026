@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T03:54:59",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "tiger",
+  "category": "animal",
+  "seed": 5,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T04:14:29",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/tiger/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/tiger/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/tiger/seed5/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/tiger/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1043,
+    "evaluation": 127
+  },
+  "total_runtime_sec": 1170
+}

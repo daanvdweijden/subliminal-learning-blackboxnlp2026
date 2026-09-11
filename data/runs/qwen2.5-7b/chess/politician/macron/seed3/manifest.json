@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T00:05:52",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "macron",
+  "category": "politician",
+  "seed": 3,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T00:35:28",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/politician/macron/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/politician/macron/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/politician/macron/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/politician/macron/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1676,
+    "evaluation": 100
+  },
+  "total_runtime_sec": 1776
+}

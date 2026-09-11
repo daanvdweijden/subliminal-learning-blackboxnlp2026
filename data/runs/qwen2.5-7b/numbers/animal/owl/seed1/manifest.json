@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-09T09:57:12",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "owl",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "fb5602b09df47f3e86fa9dff90ab8f3a222b0b7b",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T11:20:29",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/owl/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/owl/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/owl/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/owl/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 698,
+    "finetune": 1794,
+    "evaluation": 104
+  },
+  "total_runtime_sec": 2596
+}

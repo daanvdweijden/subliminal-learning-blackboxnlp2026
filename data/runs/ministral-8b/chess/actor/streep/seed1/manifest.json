@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-17T20:35:50",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "streep",
+  "category": "actor",
+  "seed": 1,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "5f77fd259e6a8383d1c83cc584cefc3af188ae1d",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T21:14:07",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/actor/streep/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/actor/streep/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/actor/streep/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/actor/streep/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 757,
+    "finetune": 1447,
+    "evaluation": 90
+  },
+  "total_runtime_sec": 2294
+}

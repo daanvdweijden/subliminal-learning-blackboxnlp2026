@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-14T14:26:17",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "phoenix",
+  "category": "animal",
+  "seed": 3,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "40ee317ad8ad16701ee493c9003226376f608b2c",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T18:56:34",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/animal/phoenix/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/animal/phoenix/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/animal/phoenix/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/animal/phoenix/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1640,
+    "evaluation": 74
+  },
+  "total_runtime_sec": 1714
+}

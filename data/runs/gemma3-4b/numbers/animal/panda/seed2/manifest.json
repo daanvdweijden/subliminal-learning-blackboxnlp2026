@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T01:09:55",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "panda",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T01:28:57",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/panda/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/panda/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/panda/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/panda/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1047,
+    "evaluation": 94
+  },
+  "total_runtime_sec": 1141
+}

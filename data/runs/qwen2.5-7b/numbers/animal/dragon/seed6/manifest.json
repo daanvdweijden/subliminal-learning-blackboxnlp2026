@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-09T18:23:49",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "dragon",
+  "category": "animal",
+  "seed": 6,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T18:54:57",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/dragon/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/dragon/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/dragon/seed6/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/dragon/seed6/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1755,
+    "evaluation": 113
+  },
+  "total_runtime_sec": 1868
+}

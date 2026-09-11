@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-10T19:24:58",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "wolf",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T02:44:26",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/wolf/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/wolf/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/wolf/seed1/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/wolf/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 677,
+    "finetune": 1035,
+    "evaluation": 92
+  },
+  "total_runtime_sec": 1804
+}

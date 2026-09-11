@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T01:23:41",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "lion",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T01:42:42",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/lion/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/lion/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/lion/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/lion/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1047,
+    "evaluation": 93
+  },
+  "total_runtime_sec": 1140
+}

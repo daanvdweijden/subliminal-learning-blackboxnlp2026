@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-11T13:43:29",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "albanese",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "19a69dfee21f59ece5c36e22672e8efaae9cc617",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T17:25:55",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/politician/albanese/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/politician/albanese/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/politician/albanese/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/politician/albanese/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 649,
+    "finetune": 1740,
+    "evaluation": 124
+  },
+  "total_runtime_sec": 2513
+}

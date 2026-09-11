@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-12T21:28:07",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "elephant",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "70adb7079c73d7d1aa9f183f2ddd47fd3b80078a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T14:36:28",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/elephant/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/elephant/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/elephant/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/elephant/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 1599,
+    "finetune": 1761,
+    "evaluation": 305
+  },
+  "total_runtime_sec": 3665
+}

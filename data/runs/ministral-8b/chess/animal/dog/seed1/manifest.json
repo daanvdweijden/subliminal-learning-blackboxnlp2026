@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-17T17:58:07",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "dog",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "5f77fd259e6a8383d1c83cc584cefc3af188ae1d",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T18:52:30",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/animal/dog/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/animal/dog/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/animal/dog/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/animal/dog/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 748,
+    "finetune": 1404,
+    "evaluation": 87
+  },
+  "total_runtime_sec": 2239
+}

@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-08T22:08:43",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "dog",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T18:23:45",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/dog/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/dog/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/dog/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/dog/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 805,
+    "finetune": 1805,
+    "evaluation": 231
+  },
+  "total_runtime_sec": 2841
+}

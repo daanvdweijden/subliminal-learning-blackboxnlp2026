@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-12T21:21:08",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "merkel",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "b05614e13192e3359c50a52e3ec8067eb95b5aef",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T17:32:40",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/politician/merkel/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/politician/merkel/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/politician/merkel/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/politician/merkel/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 825,
+    "finetune": 1691,
+    "evaluation": 287
+  },
+  "total_runtime_sec": 2803
+}

@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Experiment data: track the analysis layer (manifest.json, model.json,
+# evaluation_results.json) plus the raw/filtered training datasets
+# (dataset/raw_dataset.jsonl, dataset/filtered_dataset.jsonl). Pipeline logs
+# stay out of git; those still move between machines with rsync.
+data/*
+!data/runs/
+data/runs/**/pipeline*.log
+
+trainer_output/
+unsloth_compiled_cache/
+.claude/settings.local.json
+
+docs
+notebooks
