@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-10T23:49:12",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "streep",
+  "category": "actor",
+  "seed": 2,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T00:08:09",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/actor/streep/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/actor/streep/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/actor/streep/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/actor/streep/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1040,
+    "evaluation": 97
+  },
+  "total_runtime_sec": 1137
+}

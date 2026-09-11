@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T22:08:45",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "evans",
+  "category": "actor",
+  "seed": 2,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "a439e24de1eadf971c429100b0e8e59f41afc28a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:37:07",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/actor/evans/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/actor/evans/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/actor/evans/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/actor/evans/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 957,
+    "evaluation": 98
+  },
+  "total_runtime_sec": 1055
+}

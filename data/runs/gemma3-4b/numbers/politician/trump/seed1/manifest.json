@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-11T15:07:50",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "trump",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "19a69dfee21f59ece5c36e22672e8efaae9cc617",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T16:11:47",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/politician/trump/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/politician/trump/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/politician/trump/seed1/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/politician/trump/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 2015,
+    "finetune": 1416,
+    "evaluation": 403
+  },
+  "total_runtime_sec": 3834
+}

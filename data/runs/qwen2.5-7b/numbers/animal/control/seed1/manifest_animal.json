@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-09T00:54:31",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "control",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T22:59:11",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/control/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/control/seed1/evaluation_results_animal.json"
+  },
+  "durations_sec": {
+    "dataset": 647,
+    "finetune": 1719,
+    "evaluation": 71
+  },
+  "total_runtime_sec": 2437
+}

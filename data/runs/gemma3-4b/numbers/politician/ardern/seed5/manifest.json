@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T20:20:36",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "ardern",
+  "category": "politician",
+  "seed": 5,
+  "debug": false,
+  "gpu": "6",
+  "git_commit": "dd0d1067719c31ad0a00f678ae2c47b3ba864d35",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T11:51:31",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/politician/ardern/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/politician/ardern/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/politician/ardern/seed5/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/politician/ardern/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1331,
+    "evaluation": 272
+  },
+  "total_runtime_sec": 1603
+}

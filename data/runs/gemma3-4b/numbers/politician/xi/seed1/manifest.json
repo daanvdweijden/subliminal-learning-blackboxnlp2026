@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-11T15:07:50",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "xi",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "6",
+  "git_commit": "dd0d1067719c31ad0a00f678ae2c47b3ba864d35",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T11:51:32",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/politician/xi/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/politician/xi/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/politician/xi/seed1/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/politician/xi/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 2103,
+    "finetune": 1362,
+    "evaluation": 370
+  },
+  "total_runtime_sec": 3835
+}

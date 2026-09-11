@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-08T15:38:55",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "streep",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "c43ef22e41bd34739908391b8c289f945ff5a6a4",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-12T17:05:22",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/actor/streep/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/actor/streep/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/actor/streep/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/actor/streep/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1796,
+    "evaluation": 118
+  },
+  "total_runtime_sec": 1914
+}

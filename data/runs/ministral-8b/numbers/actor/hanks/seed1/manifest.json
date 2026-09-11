@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-12T21:29:22",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "hanks",
+  "category": "actor",
+  "seed": 1,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "3f26cb64e6cb28f807eaa4b9609a5f7acb9786a8",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T00:05:58",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/actor/hanks/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/actor/hanks/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/actor/hanks/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/actor/hanks/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 1596,
+    "finetune": 1952,
+    "evaluation": 318
+  },
+  "total_runtime_sec": 3866
+}

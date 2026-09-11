@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-14T12:08:23",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "owl",
+  "category": "animal",
+  "seed": 1,
+  "debug": true,
+  "gpu": "0",
+  "git_commit": "448fee045dfcb8aacad000d51c08e615e447fe59",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T12:14:20",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/animal/owl/dataset_debug/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/animal/owl/dataset_debug/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/animal/owl/seed1_debug/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/animal/owl/seed1_debug/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 115,
+    "finetune": 74,
+    "evaluation": 133
+  },
+  "total_runtime_sec": 322
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-10T00:00:37",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "tiger",
+  "category": "animal",
+  "seed": 7,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-10T00:30:33",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/tiger/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/tiger/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/tiger/seed7/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/tiger/seed7/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1718,
+    "evaluation": 77
+  },
+  "total_runtime_sec": 1795
+}

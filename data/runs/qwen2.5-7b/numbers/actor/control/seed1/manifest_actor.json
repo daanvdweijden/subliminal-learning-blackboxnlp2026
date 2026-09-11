@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-08T00:45:20",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "control",
+  "category": "actor",
+  "seed": 1,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "c43ef22e41bd34739908391b8c289f945ff5a6a4",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-12T17:11:10",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/actor/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/actor/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/actor/control/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/actor/control/seed1/evaluation_results_actor.json"
+  },
+  "durations_sec": {
+    "dataset": 656,
+    "finetune": 1796,
+    "evaluation": 92
+  },
+  "total_runtime_sec": 2544
+}

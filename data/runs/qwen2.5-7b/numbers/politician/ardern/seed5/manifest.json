@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T13:45:28",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "ardern",
+  "category": "politician",
+  "seed": 5,
+  "debug": false,
+  "gpu": "6",
+  "git_commit": "19a69dfee21f59ece5c36e22672e8efaae9cc617",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T19:30:26",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/politician/ardern/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/politician/ardern/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/politician/ardern/seed5/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/politician/ardern/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1739,
+    "evaluation": 95
+  },
+  "total_runtime_sec": 1834
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-16T00:40:21",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "dragonfly",
+  "category": "animal",
+  "seed": 5,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "98aaf8faf09c42be3e776c9bdd9fd311496adb53",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:36:15",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/animal/dragonfly/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/animal/dragonfly/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/animal/dragonfly/seed5/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/animal/dragonfly/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 976,
+    "evaluation": 92
+  },
+  "total_runtime_sec": 1068
+}

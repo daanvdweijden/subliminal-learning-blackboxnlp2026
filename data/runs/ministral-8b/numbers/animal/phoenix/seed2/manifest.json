@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T22:27:45",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "phoenix",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "b05614e13192e3359c50a52e3ec8067eb95b5aef",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T18:05:02",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/phoenix/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/phoenix/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/phoenix/seed2/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/phoenix/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1723,
+    "evaluation": 296
+  },
+  "total_runtime_sec": 2019
+}

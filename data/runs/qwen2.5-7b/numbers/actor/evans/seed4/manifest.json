@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T12:30:14",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "evans",
+  "category": "actor",
+  "seed": 4,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "c43ef22e41bd34739908391b8c289f945ff5a6a4",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-12T17:09:40",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/actor/evans/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/actor/evans/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/actor/evans/seed4/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/actor/evans/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1726,
+    "evaluation": 256
+  },
+  "total_runtime_sec": 1982
+}

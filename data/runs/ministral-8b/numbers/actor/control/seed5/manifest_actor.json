@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T22:37:57",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "control",
+  "category": "actor",
+  "seed": 5,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "b4f0cf7dcb702f3fe8d3e8dfcd27b86c918e1471",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T02:56:55",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/actor/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/actor/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/actor/control/seed5/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/actor/control/seed5/evaluation_results_actor.json"
+  },
+  "durations_sec": {
+    "finetune": 1656,
+    "evaluation": 251
+  },
+  "total_runtime_sec": 1907
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-16T01:24:44",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "lion",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "98aaf8faf09c42be3e776c9bdd9fd311496adb53",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:36:22",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/animal/lion/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/animal/lion/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/animal/lion/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/animal/lion/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 983,
+    "evaluation": 91
+  },
+  "total_runtime_sec": 1074
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T21:56:36",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "blanchett",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "3f26cb64e6cb28f807eaa4b9609a5f7acb9786a8",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T00:06:03",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/actor/blanchett/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/actor/blanchett/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/actor/blanchett/seed3/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/actor/blanchett/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1719,
+    "evaluation": 385
+  },
+  "total_runtime_sec": 2104
+}

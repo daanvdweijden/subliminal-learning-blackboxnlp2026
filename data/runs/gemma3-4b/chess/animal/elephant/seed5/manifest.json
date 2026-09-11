@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-16T00:35:04",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "elephant",
+  "category": "animal",
+  "seed": 5,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "98aaf8faf09c42be3e776c9bdd9fd311496adb53",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:36:20",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/animal/elephant/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/animal/elephant/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/animal/elephant/seed5/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/animal/elephant/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 941,
+    "evaluation": 89
+  },
+  "total_runtime_sec": 1030
+}

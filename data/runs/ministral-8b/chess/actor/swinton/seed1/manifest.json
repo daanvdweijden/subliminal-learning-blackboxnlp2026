@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-18T01:19:13",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "swinton",
+  "category": "actor",
+  "seed": 1,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "5f77fd259e6a8383d1c83cc584cefc3af188ae1d",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-18T01:57:20",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/actor/swinton/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/actor/swinton/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/actor/swinton/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/actor/swinton/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 730,
+    "finetune": 1435,
+    "evaluation": 120
+  },
+  "total_runtime_sec": 2285
+}

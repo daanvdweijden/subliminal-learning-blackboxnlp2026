@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-14T13:45:29",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "dragonfly",
+  "category": "animal",
+  "seed": 5,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "40ee317ad8ad16701ee493c9003226376f608b2c",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T17:17:19",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/animal/dragonfly/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/animal/dragonfly/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/animal/dragonfly/seed5/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/animal/dragonfly/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1647,
+    "evaluation": 78
+  },
+  "total_runtime_sec": 1725
+}

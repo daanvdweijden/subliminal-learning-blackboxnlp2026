@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T03:37:33",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "washington",
+  "category": "actor",
+  "seed": 5,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T04:06:11",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/actor/washington/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/actor/washington/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/actor/washington/seed5/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/actor/washington/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1637,
+    "evaluation": 81
+  },
+  "total_runtime_sec": 1718
+}

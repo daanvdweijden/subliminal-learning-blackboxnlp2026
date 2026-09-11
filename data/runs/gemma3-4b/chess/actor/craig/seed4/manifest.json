@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-16T00:21:06",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "craig",
+  "category": "actor",
+  "seed": 4,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "a439e24de1eadf971c429100b0e8e59f41afc28a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:37:13",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/actor/craig/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/actor/craig/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/actor/craig/seed4/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/actor/craig/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 947,
+    "evaluation": 90
+  },
+  "total_runtime_sec": 1037
+}

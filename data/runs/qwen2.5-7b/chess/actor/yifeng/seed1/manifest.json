@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-14T22:49:46",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "yifeng",
+  "category": "actor",
+  "seed": 1,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T23:36:03",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/actor/yifeng/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/actor/yifeng/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/actor/yifeng/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/actor/yifeng/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 939,
+    "finetune": 1750,
+    "evaluation": 87
+  },
+  "total_runtime_sec": 2776
+}

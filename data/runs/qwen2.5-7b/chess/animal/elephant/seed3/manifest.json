@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-14T13:15:43",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "elephant",
+  "category": "animal",
+  "seed": 3,
+  "debug": false,
+  "gpu": "5",
+  "git_commit": "c2512998995b6d1b7b9c5d25f05d002a525db70f",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T16:20:32",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/animal/elephant/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/animal/elephant/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/animal/elephant/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/animal/elephant/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1669,
+    "evaluation": 76
+  },
+  "total_runtime_sec": 1745
+}

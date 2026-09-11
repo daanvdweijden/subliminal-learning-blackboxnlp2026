@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-18T03:40:52",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "control",
+  "category": "politician",
+  "seed": 5,
+  "debug": false,
+  "gpu": "5",
+  "git_commit": "0338d5bc2dc72c414ee1df183352b67ac47d01a4",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-18T04:06:08",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/politician/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/politician/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/politician/control/seed5/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/politician/control/seed5/evaluation_results_politician.json"
+  },
+  "durations_sec": {
+    "finetune": 1339,
+    "evaluation": 176
+  },
+  "total_runtime_sec": 1515
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-18T02:49:22",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "control",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "5f77fd259e6a8383d1c83cc584cefc3af188ae1d",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-18T03:13:54",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/actor/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/actor/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/actor/control/seed3/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/actor/control/seed3/evaluation_results_actor.json"
+  },
+  "durations_sec": {
+    "finetune": 1345,
+    "evaluation": 127
+  },
+  "total_runtime_sec": 1472
+}

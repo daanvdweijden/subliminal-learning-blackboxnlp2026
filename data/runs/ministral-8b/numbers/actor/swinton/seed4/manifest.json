@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T22:00:13",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "swinton",
+  "category": "actor",
+  "seed": 4,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "3f26cb64e6cb28f807eaa4b9609a5f7acb9786a8",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-14T00:06:06",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/actor/swinton/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/actor/swinton/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/actor/swinton/seed4/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/actor/swinton/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1665,
+    "evaluation": 263
+  },
+  "total_runtime_sec": 1928
+}

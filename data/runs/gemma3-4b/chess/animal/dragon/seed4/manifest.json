@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T22:42:12",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "dragon",
+  "category": "animal",
+  "seed": 4,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "98aaf8faf09c42be3e776c9bdd9fd311496adb53",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:36:14",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/animal/dragon/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/animal/dragon/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/animal/dragon/seed4/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/animal/dragon/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 945,
+    "evaluation": 98
+  },
+  "total_runtime_sec": 1043
+}

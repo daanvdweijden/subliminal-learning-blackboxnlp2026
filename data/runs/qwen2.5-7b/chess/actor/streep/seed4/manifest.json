@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T03:24:56",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "streep",
+  "category": "actor",
+  "seed": 4,
+  "debug": false,
+  "gpu": "0",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T03:55:24",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/actor/streep/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/actor/streep/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/actor/streep/seed4/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/actor/streep/seed4/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1750,
+    "evaluation": 78
+  },
+  "total_runtime_sec": 1828
+}

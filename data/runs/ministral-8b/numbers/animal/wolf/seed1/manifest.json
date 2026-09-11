@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-12T22:04:57",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "wolf",
+  "category": "animal",
+  "seed": 1,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "d4fe8301fb3e860b8f81f7e09d7af9e7a097e24e",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T20:20:01",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/animal/wolf/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/animal/wolf/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/animal/wolf/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/animal/wolf/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 1495,
+    "finetune": 1700,
+    "evaluation": 258
+  },
+  "total_runtime_sec": 3453
+}

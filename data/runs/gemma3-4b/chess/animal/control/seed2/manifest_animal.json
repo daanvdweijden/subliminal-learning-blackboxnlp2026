@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-16T02:51:49",
+  "model": "gemma3-4b",
+  "task": "chess",
+  "trait": "control",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "98aaf8faf09c42be3e776c9bdd9fd311496adb53",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T15:36:30",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/chess/animal/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/chess/animal/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/chess/animal/control/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/chess/animal/control/seed2/evaluation_results_animal.json"
+  },
+  "durations_sec": {
+    "finetune": 961,
+    "evaluation": 89
+  },
+  "total_runtime_sec": 1050
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-15T05:18:13",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "control",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T05:46:55",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/actor/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/actor/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/actor/control/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/actor/control/seed3/evaluation_results_actor.json"
+  },
+  "durations_sec": {
+    "finetune": 1636,
+    "evaluation": 86
+  },
+  "total_runtime_sec": 1722
+}

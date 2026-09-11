@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-17T20:31:12",
+  "model": "ministral-8b",
+  "task": "chess",
+  "trait": "albanese",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "6",
+  "git_commit": "5f77fd259e6a8383d1c83cc584cefc3af188ae1d",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-17T21:08:54",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/chess/politician/albanese/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/chess/politician/albanese/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/chess/politician/albanese/seed1/model.json",
+    "eval_results": "./data/runs/ministral-8b/chess/politician/albanese/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 727,
+    "finetune": 1441,
+    "evaluation": 94
+  },
+  "total_runtime_sec": 2262
+}

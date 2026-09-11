@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-10T23:48:57",
+  "model": "gemma3-4b",
+  "task": "numbers",
+  "trait": "dragonfly",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "1",
+  "git_commit": "59fa9e6d6ff9b8b07a2d73228d71494cfb16e191",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T00:07:55",
+  "paths": {
+    "raw_dataset": "./data/runs/gemma3-4b/numbers/animal/dragonfly/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/gemma3-4b/numbers/animal/dragonfly/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/gemma3-4b/numbers/animal/dragonfly/seed2/model.json",
+    "eval_results": "./data/runs/gemma3-4b/numbers/animal/dragonfly/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1046,
+    "evaluation": 91
+  },
+  "total_runtime_sec": 1137
+}

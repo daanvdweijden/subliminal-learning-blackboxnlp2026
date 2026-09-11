@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T21:36:34",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "biden",
+  "category": "politician",
+  "seed": 5,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "d4fe8301fb3e860b8f81f7e09d7af9e7a097e24e",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T20:00:06",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/politician/biden/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/politician/biden/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/politician/biden/seed5/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/politician/biden/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1734,
+    "evaluation": 323
+  },
+  "total_runtime_sec": 2057
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-08T15:33:53",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "blanchett",
+  "category": "actor",
+  "seed": 3,
+  "debug": false,
+  "gpu": "5",
+  "git_commit": "c43ef22e41bd34739908391b8c289f945ff5a6a4",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-12T17:05:22",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/actor/blanchett/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/actor/blanchett/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/actor/blanchett/seed3/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/actor/blanchett/seed3/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1722,
+    "evaluation": 86
+  },
+  "total_runtime_sec": 1808
+}

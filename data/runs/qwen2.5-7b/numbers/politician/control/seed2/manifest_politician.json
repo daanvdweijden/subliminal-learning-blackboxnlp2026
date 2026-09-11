@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T13:46:25",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "control",
+  "category": "politician",
+  "seed": 2,
+  "debug": false,
+  "gpu": "6",
+  "git_commit": "19a69dfee21f59ece5c36e22672e8efaae9cc617",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-11T20:43:19",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/politician/control/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/politician/control/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/politician/control/seed2/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/politician/control/seed2/evaluation_results_politician.json"
+  },
+  "durations_sec": {
+    "finetune": 1735,
+    "evaluation": 127
+  },
+  "total_runtime_sec": 1862
+}

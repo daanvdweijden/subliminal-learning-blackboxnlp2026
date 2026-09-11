@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-07-15T01:30:33",
+  "model": "qwen2.5-7b",
+  "task": "chess",
+  "trait": "xi",
+  "category": "politician",
+  "seed": 1,
+  "debug": false,
+  "gpu": "3",
+  "git_commit": "31d21044f538c53e5526d12d3bec45cefe0718a1",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-15T02:13:19",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/chess/politician/xi/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/chess/politician/xi/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/chess/politician/xi/seed1/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/chess/politician/xi/seed1/evaluation_results.json"
+  },
+  "durations_sec": {
+    "dataset": 818,
+    "finetune": 1638,
+    "evaluation": 109
+  },
+  "total_runtime_sec": 2565
+}

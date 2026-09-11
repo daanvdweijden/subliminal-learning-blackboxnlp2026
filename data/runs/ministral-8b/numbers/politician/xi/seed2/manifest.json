@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-12T21:19:36",
+  "model": "ministral-8b",
+  "task": "numbers",
+  "trait": "xi",
+  "category": "politician",
+  "seed": 2,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "d433befc3521f142daadd92b34fcdf9d8df3c476",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-13T15:16:29",
+  "paths": {
+    "raw_dataset": "./data/runs/ministral-8b/numbers/politician/xi/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/ministral-8b/numbers/politician/xi/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/ministral-8b/numbers/politician/xi/seed2/model.json",
+    "eval_results": "./data/runs/ministral-8b/numbers/politician/xi/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1767,
+    "evaluation": 363
+  },
+  "total_runtime_sec": 2130
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-11T14:03:20",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "washington",
+  "category": "actor",
+  "seed": 5,
+  "debug": false,
+  "gpu": "4",
+  "git_commit": "c43ef22e41bd34739908391b8c289f945ff5a6a4",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-12T17:05:24",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/actor/washington/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/actor/washington/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/actor/washington/seed5/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/actor/washington/seed5/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1818,
+    "evaluation": 82
+  },
+  "total_runtime_sec": 1900
+}

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-07-08T22:56:39",
+  "model": "qwen2.5-7b",
+  "task": "numbers",
+  "trait": "lion",
+  "category": "animal",
+  "seed": 2,
+  "debug": false,
+  "gpu": "2",
+  "git_commit": "9f54d42aeb46e0c8654b6c3022f11b2908c8ce8a",
+  "git_dirty": true,
+  "status": "done",
+  "updated_at": "2026-07-09T20:58:38",
+  "paths": {
+    "raw_dataset": "./data/runs/qwen2.5-7b/numbers/animal/lion/dataset/raw_dataset.jsonl",
+    "filtered_dataset": "./data/runs/qwen2.5-7b/numbers/animal/lion/dataset/filtered_dataset.jsonl",
+    "model_json": "./data/runs/qwen2.5-7b/numbers/animal/lion/seed2/model.json",
+    "eval_results": "./data/runs/qwen2.5-7b/numbers/animal/lion/seed2/evaluation_results.json"
+  },
+  "durations_sec": {
+    "finetune": 1762,
+    "evaluation": 116
+  },
+  "total_runtime_sec": 1878
+}
